@@ -28,13 +28,14 @@ export default function Page() {
       "Wouldn't you reconsider?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
+      "What's wrong in you "
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen -mt-16">
+    <div className="flex flex-col items-center justify-center h-screen -mt-16 ">
       {yesPressed ? (
         <>
         <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
@@ -42,7 +43,7 @@ export default function Page() {
         </>
       ) : (
         <>
-          <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
+          <img className="h-[200px] mt-100" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
           <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
           <div>
             <button
