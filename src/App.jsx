@@ -21,14 +21,14 @@ export default function Page() {
       "You might regret this!",
       "Give it another thought!",
       "Are you absolutely certain?",
-      "This could be a mistake!",
+      "What's wrong in you",
       "Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
       "Wouldn't you reconsider?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "What's wrong in you "
+      "This could be a mistake! "
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
